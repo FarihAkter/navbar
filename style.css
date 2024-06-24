@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Navbars-3{
+    display: flex;
+    align-items:end
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: azure;
+    font-weight: bold;
+ 
+}
+.links-3
+{
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(248, 249, 245);
+}
+button
+{
+  background-color: rgb(20, 184, 249);
+  font-weight: bold ;
+  font-size: 14px;
+  color: aliceblue;
+  border: 1px solid rgb(20, 184, 249);
+  border-radius: 50px;
+  border-width: 6px;
+  
+  cursor:pointer;
+}
+#Navbars{
+    display: flex;
+    align-items: flex-end;
+    justify-content:flex-end;
+    padding: 20px;
+    background-color: black;
+    color: azure;
+    font-weight: bold;
+ 
+}
+.links
+{
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+#Navbars-two{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+    color: azure;
+    font-weight: bold;
+ 
+}
+.links-two
+{
+ display: flex;
+ align-items: center;
+ gap: 20px;
+}
+h2
+{
+    text-align: center;
+    color: rgb(103, 76, 7);
+    font-size: 500px bold;
+    
+}
+.nvbars
+{
+    margin: 30px;
+    padding: 20px;
+    
+}
+.buton
+{
+    margin-left: 65%;
+}
